@@ -77,7 +77,8 @@ $(document).ready(function() {
             'utm_term': sessionStorage.getItem('utm_term') == null ? '' : sessionStorage.getItem('utm_term'),
             'utm_content': sessionStorage.getItem('utm_content') == null ? '' : sessionStorage.getItem('utm_content'),
             'source_page': querystring[0],
-            'privacy_policy': 'https://www.clubemarisol.com.br/institucional/politica-de-privacidade'
+            'privacy_policy': 'https://www.clubemarisol.com.br/institucional/politica-de-privacidade',
+            'cluster': 'entrante'
         }
 
         $.ajax({
